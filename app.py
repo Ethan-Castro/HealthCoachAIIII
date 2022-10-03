@@ -23,7 +23,7 @@ def index():
       
         response = openai.Completion.create(
             model="text-davinci-002",
-            prompt="schedule for  people\n",
+            prompt="Write a schedule for a person who is\n\n",
             temperature=0.7,
             max_tokens=256,
             top_p=1,
