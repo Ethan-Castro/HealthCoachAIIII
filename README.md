@@ -6,7 +6,7 @@
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
 
 2. Clone this repository
-   git clone https://github.com/Ethan-Castro/EthanDAPP.git
+   git clone https://github.com/Ethan-Castro/EthanOfficialDAPP.git
 
 3. Navigate into the project directory
 
