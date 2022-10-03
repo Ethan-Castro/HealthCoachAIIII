@@ -22,18 +22,18 @@
 5. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
    
    ```bash
-   $ echo OPENAI_API_KEY=<insert your API key>
+   $ export OPENAI_API_KEY=<insert your API key>
 
 
 
 8. Run the app
 
-   ```bash
-    $ python -m venv venv
-   $ . venv/bin/activate
-  $ pip install -r requirements.txt
-   $ flask run
-   ```
+   
+    python3 -m venv venv
+. venv/bin/activate
+pip install -r requirements.txt
+flask run
+ 
 
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
 
