@@ -10,10 +10,10 @@
 
 <body>
   <img src="{{ url_for('static', filename='schedule.png') }}" class="icon" />
-  <h3>Name my pet</h3>
+  <h3>Schedule Creator for Every type of person. AI programmed by Ethan Castro.</h3>
   <form action="/" method="post">
     <input type="text" name="animal" placeholder="What kind of person are you?" required />
-    <input type="submit" value="Generate names" />
+    <input type="submit" value="Give me my Schedule" />
   </form>
   {% if result %}
   <div class="result">{{ result }}</div>
