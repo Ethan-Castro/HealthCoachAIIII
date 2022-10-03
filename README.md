@@ -1,4 +1,4 @@
-# OpenAI API DAPP - Python e app
+# OpenAI API DAPP - Python Dapp
 
 
 ## Setup
@@ -13,34 +13,28 @@
    ```bash
    $ cd DAPP
    ```
-
-4. Create a new virtual environment
-
-   ```bash
-   $ python -m venv venv
-   $ . venv/bin/activate
-   ```
-
-5. Install the requirements
-
-   ```bash
-   $ pip install -r requirements.txt
-   ```
-
-6. Make a copy of the example environment variables file
+   4. Make a copy of the example environment variables file
 
    ```bash
    $ cp .env.example .env
    ```
 
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
+5. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
    
    ```bash
    $ echo OPENAI_API_KEY=<insert your API key>
+
+
+
 8. Run the app
 
    ```bash
+    $ python -m venv venv
+   $ . venv/bin/activate
+  $ pip install -r requirements.txt
    $ flask run
    ```
 
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
+
+FOLLOW THIS FOR CLARITY. REPLACE FILES WITH MINE https://drive.google.com/file/d/1FIvB8pw-1GSyzn_-5mUMqOUu9Ip30GgK/view?usp=sharing
