@@ -6,12 +6,12 @@
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
 
 2. Clone this repository
-   git clone https://github.com/Ethan-Castro/EthanFinalDAPP.git
-
+   git clone https://github.com/Ethan-Castro/EthansScheduleMakerDAPP.git
+   
 3. Navigate into the project directory
 
    ```bash
-   $ cd EthanFinallDAPP
+   $ cd EthanScheduleMakerDAPP
    ```
    4. Make a copy of the example environment variables file
 
