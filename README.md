@@ -31,10 +31,10 @@
 8. Run the app
 
 ```bash
-   $ $python -m venv venv
+  $ python -m venv venv
   $. venv/bin/activate
-  $pip install -r requirements.txt
-  $flask run
+  $ pip install -r requirements.txt
+  $ flask run
 
    ```
   
