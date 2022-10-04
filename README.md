@@ -35,7 +35,7 @@
   $. venv/bin/activate
   $pip install -r requirements.txt
   $flask run
-   ```
+  ```
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! For the full context behind this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
 
 FOLLOW THIS FOR CLARITY. REPLACE FILES WITH MINE https://drive.google.com/file/d/1FIvB8pw-1GSyzn_-5mUMqOUu9Ip30GgK/view?usp=sharing
