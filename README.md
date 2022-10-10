@@ -5,7 +5,7 @@
 
 1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
 
-2. Clone this repository
+2. Clone this repository in your terminal
    
    ```bash
    $ git clone https://github.com/Ethan-Castro/ScheduleGeneratorDAPP.git
