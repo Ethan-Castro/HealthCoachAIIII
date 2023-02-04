@@ -23,7 +23,7 @@ def index():
       
         response = openai.Completion.create(
             model="text-davinci-003",
-            prompt="Q: I am elderly and need help getting services\nA: Contact the department of aging, there is most likely many programs from EBT to technology programs to help you navigate. Have a great day!",",
+            prompt="Q: I am elderly and need help getting services\nA: Contact the department of aging, there is most likely many programs from EBT to technology programs to help you navigate. Have a great day!"
             temperature=0.7,
             max_tokens=256,
             top_p=1,
