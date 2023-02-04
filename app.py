@@ -23,7 +23,7 @@ def index():
       
         response = openai.Completion.create(
             model="text-davinci-003",
-            prompt="Q: What is a schedule for me\nA: Wakeup at a reasonable time for your circadian rhythm, which usually falls in line with sunrise.\nGo to work and stuff\nGo home and sleep boy",",
+            prompt="Q: I am elderly and need help getting services\nA: Contact the department of aging, there is most likely many programs from EBT to technology programs to help you navigate. Have a great day!",",
             temperature=0.7,
             max_tokens=256,
             top_p=1,
