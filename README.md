@@ -8,7 +8,7 @@
 2. Clone this repository in your terminal
    
    ```bash
-   $ git clone https://github.com/Ethan-Castro/ScheduleGeneratorDAPP.git](https://github.com/Ethan-Castro/HealthCoachAIIII.git
+   $ git clone https://github.com/Ethan-Castro/HealthCoachAIIII.git
    ```
 3. Navigate into the project directory
 
